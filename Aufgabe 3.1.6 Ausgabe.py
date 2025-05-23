@@ -2,12 +2,18 @@
 full_name = "Max Mustermann"
 age = 30
 gender = "männlich"
-height = "1,80m"
-weight = "75kg"
+height = 1.80
+weight = 75
 eye_color = "braun"
 hair_color = "schwarz"
 position = "Softwareentwickler"
 hobby = "Lesen"
 character_traits = "freundlich"
 
-print('Der volle Name ist:' + " " + full_name + ", und er/sie ist " +  str(age) + " Jahre alt")
+# Erstelle daraus eine vernünftige Ausgabe in einem Satz.
+
+output_sentense = full_name + " ist " +  str(age) + " Jahre alt, " + gender + ", ist " + str(height) + " m groß und wiegt " + str(weight) + " kg. Er hat " +  eye_color + "e Augen und " + hair_color + "e Haare. Er arbeitet als " + position + " und mag " + hobby + " gern. Seine Charaktereigenschaft ist " + character_traits + "."
+
+print(output_sentense)
+
+# Max Mustermann ist 30 Jahre alt, männlich, ist 1.8 m groß und wiegt 75 kg. Er hat braune Augen und schwarze Haare. Er arbeitet als Softwareentwickler und mag Lesen gern. Seine Charaktereigenschaft ist freundlich.
