@@ -6,7 +6,7 @@ fuel_type = "Diesel"
 vehicle_type = "LKW"
 vehicle_brand = "Volvo"
 manufacture_year = 2024
-transmission_type = "manual"
+transmission_type = "manuell"
 registration_country = "Deutschland"
 mileage = 132500
 
