@@ -127,7 +127,7 @@ if num4 == num5 == num6:
 elif (num4 < num5 < num6) or (num4 > num5 > num6):
     print("\nDie zweite Zahl (", num5, ") liegt zwischen dem ersten Zahl (", num4, ") und dem dritten Zahl (", num6, ").")
 else:
-    print("\nDie zweite Zahl (", num5, ") liegt nicht zwischen dem erstenZahl (", num4, ")und dem dritten Zahl (", num6, ").")
+    print("\nDie zweite Zahl (", num5, ") liegt nicht zwischen dem erstenZahl (", num4, ") und dem dritten Zahl (", num6, ").")
 
 print("\n-------------------------------\n")
 
@@ -144,8 +144,9 @@ if payments > 100:
     print("\nGlückwunsch!! Sie bekommen 10% Rabatt!")
 else:
     end_price = payments
+    print("\nLeider, Sie bekommen keinen Rabatt. Ab Einkaufswert über 100€ gibt es 10% Rabatt.")
 
-print("\nDer Endpreis beträgt: ", end_price, "€, Leider, der Rabatt beginn ab 100 €.")
+print("\nDer Endpreis beträgt: ", end_price, "€")
 
 print("\n-------------------------------\n")
 
