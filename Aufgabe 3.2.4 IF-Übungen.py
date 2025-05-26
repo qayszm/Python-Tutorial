@@ -181,8 +181,8 @@ while True:
     try:
         weight_str = input("\nBitte geben Sie Ihr Gewicht in Kilogramm ein (z.B. 70.5): ")
         weight = float(weight_str.replace(',', '.'))
-        if weight <= 0:
-            print("\nDas Gewicht muss ein positiver Wert sein.")
+        if weight <= 0 or weight > 200:
+            print("\nDas Gewicht muss ein positiver Wert in Kilogramm sein (z.B. 70.5).")
             continue
         break
     except ValueError:
@@ -193,8 +193,8 @@ while True:
     try:
         height_str = input("\nBitte geben Sie Ihre Größe in Metern ein (z.B. 1.75): ")
         height = float(height_str.replace(',', '.'))
-        if height <= 0:
-            print("\nDie Größe muss ein positiver Wert sein.")
+        if height <= 0 or height > 2.5:
+            print("\nDie Größe muss ein positiver Wert in Metern sein (z.B. 1.75).")
             continue
         break
     except ValueError:
