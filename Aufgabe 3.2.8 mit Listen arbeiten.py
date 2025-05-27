@@ -59,7 +59,10 @@ print("Durchschnitt (Mittelwert):", round(average, 2))  # Gibt den Durchschnitt 
 
 # 5 - Gibt die Liste in umgekehrter Reihenfolge aus.
 
-reversed_numbers1 = numbers[::-1]  # Umgekehrte Liste erstellen
+reversed_numbers1 = numbers[::-1]  
+# Umgekehrte Liste erstellen numbers[start:stop:step], 
+# start (leer) = Anfang der Liste, stop (leer) = bis zum Ende, step = -1 = Schrittweise rückwärts gehen
+
 
 reversed_numbers2 = list(reversed(numbers))
 
