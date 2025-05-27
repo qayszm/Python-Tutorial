@@ -32,19 +32,19 @@ print("***** Zahlenraten: Raten Sie eine Zahl zwischen 1 und 100 *****")
 # Zufällige Zahl zwischen 1 und 100 generieren
 random_number = random.randint(1, 100)
 
-i = 0
+Counter = 0
 
 while True:
     try:
         user_guess = int(input("\nGeben Sie Ihre Schätzung ein: "))
-        i += 1  
+        Counter += 1  
 
         if user_guess < random_number:
             print("Ihr Versuch ist niedrig! Versuchen Sie es erneut.")
         elif user_guess > random_number:
             print("Ihr Versuch ist hoch! Versuchen Sie es erneut.")
         else:
-            print("Herzlichen Glückwunsch! Sie haben die Zahl", random_number, "mit", i, "Versuchen erraten.")
+            print("Herzlichen Glückwunsch! Sie haben die Zahl", random_number, "mit", Counter, "Versuchen erraten.")
             break
     
     except ValueError:
