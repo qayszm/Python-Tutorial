@@ -25,6 +25,8 @@ print(names)  # Gibt die geänderte Liste aus: ["Sara", "kais", "Manssour", 4, 7
 names.append("Tony")  # Fügt ein neues Element "Tony" am Ende der Liste hinzu
 print(names)  # Gibt die Liste nach dem Hinzufügen von "Tony" aus: ["Sara", "kais", "Manssour", 4, 7.5, True, [1, "ABC"], "Tony"]
 
+# names.remove("kais")  # Entfernt das Element "kais" aus der Liste
+
 print(names[1:4])  # Gibt die Elemente von Index 1 bis 3 (nicht inklusive 4) aus: ["kais", "Manssour", 4]
 print(names[1:])  # Gibt alle Elemente ab Index 1 aus: ["kais", "Manssour", 4, 7.5, True, [1, "ABC"], "Tony"]
 print(names[:3])  # Gibt die ersten drei Elemente der Liste aus: ["Sara", "kais", "Manssour"]
