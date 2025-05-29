@@ -106,6 +106,22 @@ print(car1 is car2)  # Gibt False zurück, da car1 und car2 auf verschiedene Obj
 
 #------------------------------Methode hinzufügen----------------
 
+# Eine Methode ist eine Funktion, die in einer Klasse definiert ist und auf Objekte dieser Klasse angewendet werden kann.
+# Methoden werden in der Klasse definiert und können auf die Attribute des Objekts zugreifen, indem sie self verwenden.
+# Methoden werden aufgerufen, indem sie auf das Objekt gefolgt von einem Punkt und dem Methodennamen aufgerufen werden.
+# Methoden können Parameter entgegennehmen, die beim Aufruf der Methode übergeben werden.
+# Methoden können auch Rückgabewerte haben, die mit dem Schlüsselwort return zurückgegeben werden.
+# Methoden können verwendet werden, um das Verhalten des Objekts zu ändern oder Informationen über das Objekt bereitzustellen.
+# methoden können auch andere Methoden der Klasse aufrufen, um komplexe Operationen durchzuführen.
+
+# Syntax für die Definition einer Methode in einer Klasse:
+
+# def method_name(self, parameter1, parameter2):
+#    # Code der Methode
+#    return value  # Optional: Rückgabewert der Methode
+
+
+
 class CarInStore:                          # Definition der Klasse CarInStore
     def __init__(self, car_brand, horse_power, color):  # Konstruktor der Klasse Car
         self.car_brand = car_brand  # Attribute initialisieren
