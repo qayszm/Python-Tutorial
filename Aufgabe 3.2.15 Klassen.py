@@ -20,7 +20,7 @@ class BankAccount:
     def deposit(self, amount):
         if amount > 0:
             self.a_balance += amount
-            print("Sie haben ", amount, "erforlgreich eingezahlt" )
+            print("Sie haben ", amount, "€ erforlgreich eingezahlt" )
         else:
             print("Der Betrag muss positve sein!")
 
@@ -28,15 +28,15 @@ class BankAccount:
         if amount > 0:
             if self.a_balance - amount  >= self.overdraft_limit:
                 self.a_balance -= amount
-                print("Sie haben ", amount, "erforlgreich abgehoben" )
+                print("Sie haben ", amount, "€ erforlgreich abgehoben" )
             else:
-                print("Ihr Guthaben ist" , self.a_balance, "€, und die Überziehungslimit ist 100€. Dieser Prozess kann nicht durchgeführt weden!")
+                print("Ihr Kontostand beträgt" , self.a_balance, "€, und die Überziehungslimit von", self.overdraft_limit, "€ würde überschritten. Vorgang nicht möglich!")
         
         else:
             print("Der Betrag muss positve sein!")
 
     def dispalay_account_balance(self):
-        print("Ihr Aktuelle Kontostand beträgt ", self.a_balance,"€")
+        print("Ihr Aktuelle Kontostand beträgt ", self.a_balance,"€.")
 
 
     def zinsen_berechnen(self, zinssatz):
@@ -49,7 +49,7 @@ class BankAccount:
 
 
     def __str__(self):
-        return "Konto von", self.account_holder, "- Kontostand:", self.a_balance, "€"
+        return "Konto von" + self.a_holder + "- Kontostand:" +  str(self.a_balance) + "€"
 
 
 account = BankAccount("Max Mustermann")
