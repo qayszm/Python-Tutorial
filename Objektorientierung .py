@@ -149,7 +149,7 @@ class CarRace:                          # Definition der Klasse CarRace
         self.x_position = 0                        # Initialisiert die Position auf x-Achse des Autos auf 0
         self.y_position = 0                       # Initialisiert die Position auf y-Achse des Autos auf 0
 
-    def drive(self, x, y) #:  # Methode zum Fahren des Autos
+    def drive(self, x, y): # Methode zum Fahren des Autos
         self.x_position += x  # Aktualisiert die x-Position des Autos
         self.y_position += y  # Aktualisiert die y-Position des Autos
 
