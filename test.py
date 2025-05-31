@@ -63,7 +63,7 @@ account = BankAccount(name)
 
 while True:
     frame()
-    user_input = input("\n\t\t 👉  Bitte wählen Sie eine Option (1-4) oder X zu beenden: ").strip().lower()
+    user_input = input("\n\t\t 👉  Bitte wählen Sie eine Option 1️⃣  ➡️  4️⃣   oder ❌  zu beenden: ").strip().lower()
 
     if user_input == "1":
         amount = float(input("\n\t\t 👉  Bitte geben Sie einen Betrag zum Einzahlen ein: "))
@@ -81,11 +81,11 @@ while True:
         account.zinsen_berechnen(zinssatz)
 
     elif user_input == "x":
-        print("\n\t\t 👉  Programm beendet. Vielen Dank!")
+        print("\n\t\t👋  Programm beendet. Vielen Dank!\n\n")
         break
 
     else:
-        print("\n\t\t ⚠️  Ungültige Eingabe. Bitte wählen Sie eine Zahl von 1 bis 4 oder X zu beenden.")
+        print("\n\t\t ⚠️  Ungültige Eingabe. Bitte wählen Sie eine Zahl von 1️⃣  ➡️  4️⃣   oder ❌ zu beenden.")
 
 
 
