@@ -8,7 +8,12 @@
 #         einzahlen(self, betrag): Erhöht den Kontostand um den übergebenen Betrag.
 #         abheben(self, betrag): Verringert den Kontostand um den übergebenen Betrag, aber nur, wenn genug Geld vorhanden ist. Andernfalls soll eine Warnung ausgegeben werden.
 #         zeige_kontostand(self): Gibt den aktuellen Kontostand aus.
-
+# 3- Methode __str__(self) hinzu, die das Konto als lesbare Zeichenkette darstellt
+# 4 - Überziehungslimit: Füge ein Attribut ueberziehungsrahmen hinzu ( -100.0 € Standardwert).
+#                  Beim Abheben darf der Kontostand nicht unter das Überziehungslimit fallen.
+# 5 - Zinsen berechnen: Methode zinsen_berechnen(self, zinssatz)
+#            Der aktuelle Kontostand soll mit dem übergebenen Zinssatz (in %) verzinst werden, 
+#            aber nur wenn der Kontostand positiv ist.
 
 
 class BankAccount:
