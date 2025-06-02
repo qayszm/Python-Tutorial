@@ -54,7 +54,7 @@ class BankAccount:
 
 
     def __str__(self):
-        return "Konto von" + self.a_holder + "- Kontostand:" +  str(self.a_balance) + "€"
+        return "Konto von " + self.a_holder + " - Kontostand:" +  str(self.a_balance) + "€"
 
 
 account = BankAccount("Max Mustermann")

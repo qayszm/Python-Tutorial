@@ -18,7 +18,7 @@ root.geometry("400x400")
 
 # Backgrond für Label widget  mit bg Parameter => Farbe: Hexa Dezimal Werte oder Color-name 
 # widget reserviert die ganze Zeile, aber das hitergrund passt genau das text
-# side = top (default value) definiert den Platz eines widget / "botton" / "left" /  "right"
+# side = top (default value) definiert den Platz eines widget / "bottom" / "left" /  "right"
 # mit fill ="x" Parameter wird das hitergrund auf ganze platz (x Achse) / fill ="y" (y Achse) / fill ="both" => füllt den ganzen Platz Vertikal und horizontal
 # expand=True Vertikal Erweiterung wie möglich auf dem Fenster
 # wenn expand=True auf beiden wedgets, teilen sie (gleichmäßig) das ganze Fenster Vertikal / Erweiterung
