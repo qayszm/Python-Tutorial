@@ -1,6 +1,6 @@
 from Frames import *
 
-from BankAccountClass  import *
+from BankAccountClass  import BankAccount
 
 
 
