@@ -7,7 +7,7 @@ my_db = mysql.connector.connect(
     password="P@ssw0rd"
 )
 
-#print(my_db)
+print(my_db)
 
 my_curser = my_db.cursor()
 
